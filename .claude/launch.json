@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "stock-chatbot",
+      "runtimeExecutable": ".venv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "app.py", "--server.headless", "true"],
+      "port": 8501
+    },
+    {
+      "name": "boddlebox-check",
+      "runtimeExecutable": ".venv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "boddlebox_app.py", "--server.headless", "true"],
+      "port": 8502
+    }
+  ]
+}
